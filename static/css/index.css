@@ -1,0 +1,54 @@
+.first_row{
+    margin-top: 80px !important;
+    margin-bottom: 80px;
+}
+.overview{
+    color: orange;
+}
+.plus{
+    color: orange;
+}
+.second_row{
+    background-color: black;
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.menu:hover{
+    color: orange !important;
+}
+.aside{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+}
+.signature{
+    padding-left: 7px;
+    border-left: 2px solid orange;
+}
+.third_row{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.blogs{
+    color: orange;
+}
+.fourth_row{
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.about{
+    color: orange;
+    padding-top: 80px;
+}
+.footer{
+    background-color: black;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.more_fun{
+    margin-bottom: 20px;
+}
+.footer_2{
+    padding-top: 70px;
+}

@@ -1,0 +1,190 @@
+{% extends 'base.html' %}
+{% load static%}
+{% block stylesheet %} <link rel="stylesheet" href="{% static 'css/index.css' %}"> {% endblock %}
+{% block title%} {% endblock %}
+{% block main%}
+<div class="container">
+    <div class="row first_row d-flex align-items-center">
+        <div class="col-md-5 col-12 d-flex justify-content-center">
+            <img src="{% static 'img/coffee3.jpg' %}" alt="" height="300px" width="400px">
+        </div>
+        <div class="col-md-7 col-12">
+            <div class="col mb-2">
+                <small class="overview">Overview</small>
+            </div>
+            <div class="col">
+                <h4 class="fw-bold">A Little Information For<br>Our Guest</h4>
+            </div>
+            <div class="col">
+                <small>Here we attach a little information about our Wistara coffee space that<br>will 
+                    make it easier for you guests at our cafe to know us better.</small>
+            </div>
+            <div class="col mt-4">
+                <div class="row">
+                    <div class="col-md-2 col-12">
+                        <h3>100<span class="fw-bold plus">+</span></h3>
+                        <small>Meeting</small>
+                    </div>
+                    <div class="col-md-2 col-12">
+                        <h3>15<span class="fw-bold plus">+</span></h3>
+                        <small>Menus</small>
+                    </div>
+                    <div class="col-md-2 col-12">
+                        <h3>20<span class="fw-bold plus">+</span></h3>
+                        <small>Event</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="second_row">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <h2 class="signature">Our Signature Menu</h2>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="col">
+                    <small>We have a signature menu that dinners really like. The menu<br>becomes a mainstay when 
+                        visitors come to Wistara Coffee<br> Space one of which is cold brew.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<aside class="aside">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-12 d-flex justify-content-center">
+                <div class="col">
+                    <div class="col mb-5">
+                        <a href="#" class="menu text-decoration-none text-white small">Cold Brew</a>
+                    </div>
+                    <div class="col mb-5">
+                        <a href="#" class="menu text-decoration-none text-white small">Strawberry Latte</a>
+                    </div>
+                    <div class="col mb-5">
+                        <a href="#" class="menu text-decoration-none text-white small">Mantanchino</a>
+                    </div>
+                    <div class="col mb-5">
+                        <a href="#" class="menu text-decoration-none text-white small">Latte Art</a>
+                    </div>
+                    <div class="col mb-5">
+                        <a href="#" class="menu text-decoration-none text-white small">French Press</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-12">
+                <div class="col text-white">
+                    <h3 class="latte">Latte Art</h3>
+                </div>
+                <div class="col text-white mb-3">
+                    <small>Latte Art is a method of preparing coffee by pouring<br>microfoam into a shot of espresso
+                        and resulting in a<br> pattern or design on the surface of the latte.</small>
+                </div>
+                <div class="col">
+                    <img src="{% static 'img/jeremy-yap-jn-HaGWe4yw-unsplash.jpg'%}" alt="" width="350px" height="300px">
+                </div>
+            </div>
+            <div class="col-md-5 col-12">
+                <div class="col">
+                    <img src="{% static 'img/nathan-dumlao-Y3AqmbmtLQI-unsplash.jpg'%}" alt="" width="350px" height="420px">
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
+<section class="third_row">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <div class="col">
+                    <h5 class="blogs">Our blogs</h5>
+                    <h2 class="fw-bold">Our Blog About Coffee</h2>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="col">
+                    <small>We have several blogs or articles about coffee for<br>visitors especially coffee lovers to enjoy. WE created this<br>article
+                    so that visitors can gain knowledge about coffee.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<main class="fourth_row">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <div class="col">
+                    <img src="{% static 'img/nathan-dumlao-6VhPY27jdps-unsplash.jpg' %}" alt="" width="100%" height="300px">
+                </div>
+                <div class="col">
+                    <h6 class="fw-bold pt-4">Benefits of Coffee</h6>
+                    <small>Efficacy of caffeine in coffee improves mood. This good mood will eventually help lower depression.</small>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="col">
+                    <img src="{% static 'img/fahmi-fakhrudin-nzyzAUsbV0M-unsplash (1).jpg' %}" alt="" width="100%" height="300px">
+                </div>
+                <div class="col">
+                    <h6 class="fw-bold pt-4">2022 Coffee recommendation</h6>
+                    <small>Currently coffee has become a drink that is popular with everyone. Its delicious and distinctive taste also makes it beneficial</small>
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="col">
+                    <img src="{% static 'img/tabitha-turner-PSqT-lQAt7A-unsplash.jpg' %}" alt="" width="100%" height="300px">
+                </div>
+                <div class="col">
+                    <h6 class="fw-bold pt-4">Coffee Helps In Productivity</h6>
+                    <small>Currently coffee has become a drink that is popular with everyone. Its delicious and distinctive taste also makes it beneficial</small>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-5 mb-3">
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6 col-12">
+                <div class="col">
+                    <h5 class="fw-bold about">About Us</h5>
+                </div>
+                <div class="col text-white">
+                    <h2 class="more_fun">More Fun About Our Coffee<br> Space</h2>
+                </div>
+                <div class="col text-white">
+                    <small>The various coffees, indian, asian, indonesian flavors as<br>well as halal drinks that we serve are prepared by experienced<br>
+                    baristas and chefs, hoping to bring you happy experience in<br>the culinary and coffee world.</small>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="col">
+                    <img src="{% static 'img/ante-samarzija-lsmu0rUhUOk-unsplash.jpg' %}" alt="" width="100%" height="400px">
+                </div>
+            </div>
+        </div>
+        <div class="row gx-3 footer_2">
+            <div class="col-md-4 col-12">
+                <div class="col">
+                    <img src="{% static 'img/emre-NZMeJsrMC8U-unsplash.jpg' %}" alt="" width="100%" height="300px">
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="col">
+                    <img src="{% static 'img/tabitha-turner-PSqT-lQAt7A-unsplash.jpg' %}" alt="" width="100%" height="300px">
+                </div>
+            </div>
+            <div class="col-md-4 col-12">
+                <div class="col">
+                    <img src="{% static 'img/nathan-dumlao-Y3AqmbmtLQI-unsplash.jpg' %}" alt="" width="100%" height="300px">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{% endblock %}

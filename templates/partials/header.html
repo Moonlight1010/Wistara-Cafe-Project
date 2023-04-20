@@ -1,0 +1,52 @@
+{% load static%}
+<style>
+    .header{
+        background-color: black;
+    }
+    .orange_wistara{
+        color: rgba(255, 166, 0, 0.644);
+    }
+    .reservation_button{
+        padding: 10px;
+        background-color: rgba(255, 166, 0, 0.644);
+    }
+    .reservation_button:hover{
+        background-color: rgba(255, 166, 0, 0.495);
+    }
+    .see_menu_button{
+        padding: 10px;
+        background-color: black;
+    }
+    .see_menu_button:hover{
+        color: wheat !important;
+    }
+</style>
+
+<header class="header py-5">
+    <div class="container text-white">
+        <div class="row">
+            <div class="col-md-7 col-12 d-md-flex justify-content-center align-items-center">
+                <div class="">
+                    <div class="col my-4">
+                        <small class="orange_wistara">Wistara</small>
+                    </div>
+                    <div class="col">
+                        <h1>Hangout Experience<br> with great atmosphere</h1>
+                    </div>
+                    <div class="col py-3">
+                        <small>Build your productivity with and build your  mood with a short<br> break in the most comfortable places</small>
+                    </div>
+                    <div class="col py-3 d-flex">
+                        <a href="#" class="reservation_button text-decoration-none text-dark small fw-bold">Reservation</a>
+                        <a href="#" class="see_menu_button text-decoration-none text-white small ms-3">See Our Menu</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-12">
+                <div class="col cup_of_coffee d-flex justify-content-start">
+                    <img src="{% static 'img/coffee4.jpg'%}" width="360px" height="420px" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
